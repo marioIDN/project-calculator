@@ -89,7 +89,7 @@ body {
 @media screen and (max-width: 1020px) {
     .frame {
         width: 80%;
-        height: 50vh;
+        height: 70vh;
     }
     .tombol .baris button {
         width: 70px;
@@ -99,7 +99,7 @@ body {
 @media screen and (max-width: 720px) {
     .frame {
         width: 90%;
-        height: 50vh;
+        height: 70vh;
     }
     .tombol .baris button {
         width: 70px;
@@ -109,7 +109,6 @@ body {
 @media screen and (max-width: 640px) {
     .frame {
         width: 90%;
-        height: 90vh;
     }
     .tombol .baris button {
         width: 60px;
@@ -119,6 +118,7 @@ body {
 @media screen and (max-width: 510px) {
     .frame {
         width: 90%;
+        height: 50vh;
     }
     .tombol .baris button {
         width: 45px;
@@ -133,11 +133,6 @@ body {
         width: 45px;
     }
 }
-@media screen and (max-height:570px){
-    .frame {
-        height: 55vh;
-    }
-}
 
 @media screen and (max-width: 390px) {
     .frame {
@@ -145,10 +140,5 @@ body {
     }
     .tombol .baris button {
         width: 45px;
-    }
-}
-@media screen and (max-height:570px){
-    .frame {
-        height: 55vh;
     }
 }
