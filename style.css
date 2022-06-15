@@ -145,6 +145,6 @@ body {
 
 @media screen and (max-height: 415px) {
     .frame {
-        height: 100vh;
+        height: 320px;
     }
 }
