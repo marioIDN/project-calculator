@@ -86,23 +86,43 @@ body {
 }
 
 /* responsive landscape */
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1020px) {
     .frame {
-        width: 70%;
-        height: 80vh;
+        width: 80%;
+        height: 50vh;
     }
     .tombol .baris button {
-        width: 80px;
+        width: 70px;
     }
 }
 
 /* responsive potrait */
 @media screen and (max-width: 720px) {
     .frame {
-        width: 80%;
-        height: 40vh;
+        width: 90%;
+        height: 50vh;
     }
     .tombol .baris button {
-        width: 35px;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .frame {
+        width: 80%;
+        height: 50vh;
+    }
+    .tombol .baris button {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .frame {
+        width: 80%;
+        height: 50vh;
+    }
+    .tombol .baris button {
+        width: 50px;
     }
 }
