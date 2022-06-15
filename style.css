@@ -10,7 +10,7 @@ body {
 
 .frame {
     width: 45%;
-    height: 45vh;
+    height: 50vh;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 12px 12px 20px #cbced1,
@@ -23,7 +23,6 @@ body {
     outline: none;
     font-size: 35px;
     text-align: right;
-    /* padding-right: .5em; */
     border-radius: 6px;
     background: #ecf0f3;
     box-shadow: inset 8px 8px 8px #cbced1,
@@ -84,4 +83,26 @@ body {
 
     box-shadow:inset 5px 5px 8px #e60073,
                inset -5px -5px 8px #ff3399;
+}
+
+/* responsive landscape */
+@media screen and (max-width: 1080px) {
+    .frame {
+        width: 70%;
+        height: 80vh;
+    }
+    .tombol .baris button {
+        width: 80px;
+    }
+}
+
+/* responsive potrait */
+@media screen and (max-width: 720px) {
+    .frame {
+        width: 80%;
+        height: 40vh;
+    }
+    .tombol .baris button {
+        width: 35px;
+    }
 }
