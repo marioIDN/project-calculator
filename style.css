@@ -142,3 +142,15 @@ body {
         width: 45px;
     }
 }
+
+@media screen and (max-height: 415px) {
+    .frame {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-height: 360px) {
+    .frame {
+        height: 90vh;
+    }
+}
