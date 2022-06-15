@@ -96,7 +96,6 @@ body {
     }
 }
 
-/* responsive potrait */
 @media screen and (max-width: 720px) {
     .frame {
         width: 90%;
@@ -109,7 +108,7 @@ body {
 
 @media screen and (max-width: 640px) {
     .frame {
-        width: 80%;
+        width: 90%;
         height: 90vh;
     }
     .tombol .baris button {
@@ -117,12 +116,39 @@ body {
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 510px) {
     .frame {
         width: 90%;
-        height: 90vh;
     }
     .tombol .baris button {
         width: 45px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .frame {
+        width: 90%;
+    }
+    .tombol .baris button {
+        width: 45px;
+    }
+}
+@media screen and (max-height:570px){
+    .frame {
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .frame {
+        width: 90%;
+    }
+    .tombol .baris button {
+        width: 45px;
+    }
+}
+@media screen and (max-height:570px){
+    .frame {
+        height: 55vh;
     }
 }
